@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href= "contacto.css"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<head>
+
+
+<body>
+  <div><table class="table" width="100%" border="0" cellpadding="0" cellspacing="0">
+    <th><h1 class="textcabecera" align="center" style="color: rgb(0, 0, 0);">Llene el formulario y contactenos</h1></th>
+ </div>
+</table>
+<table class="tablex" bgcolor="##00FFFF" width="100%" border="8" cellpadding="20" cellspacing="20" bordercolor="#00FFFF" >
+  <form action="mailto:atropeano@murialdo.edu.ar" method="post" enctype="text/plain">
+    <div align="center">
+ Ingrese aquí su nombre :
+ <br>
+  <input type="text" name="Nombre">
+  <br>
+  Ingrese aquì telefono:
+  <br>
+  <input type="number" name="telefono">
+  <br>
+  Ingrese aquí su email:
+  <br>
+  <input type="text" name="email">
+  <br>
+  ¿Porque nos contacta?
+  <br>
+  <select name="Opciones">
+    <option value = "Consultas">CONSULTA</option>
+    <option value = "Encargue">ENCARGUE</option>
+    </select>
+ 
+  <br>
+
+  <textarea name="comentario" rows="10" cols="40">Escribe tu comentario....</textarea>
+ <br>
+ Ha comprado alguna vez:
+ <br>
+    <input type="radio" id="si" name="comprapast" value="si" >
+    <label for= "si">si</label>
+    <br>
+      <input type="radio" id="no" name="comprapast" value="no">
+      <label for= "no">No</label>
+     <br>  
+     <input type="submit" class="boton" value="Enviar">
+    </div>
+    </form>
+
+</table>
+</body>
+</html>
